@@ -1,0 +1,11 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font jucaus */
+    color: blue; /* Text albastru */
+    margin: 20px; /* Margini */
+    border: 5px solid red; /* Margini rosii */
+}
+
+h1 {
+    color: royalblue; /* Titlu mov royal */
+}

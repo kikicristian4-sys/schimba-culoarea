@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Despre — Schimbă Culoarea</title>
+    <meta name="description" content="Pagina Despre proiectul Schimbă Culoarea" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Acasă</a>
+            <a href="about.html" aria-current="page">Despre</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Marin Cristian</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>Sunt un student de la UBB Facultatea de mate info, imi plac jocurile video si 
+                prefer pisicile negre.</p>
+             <ul>
+                <li>Jocurile video</li>
+                <li>Mersul la facultate</li>
+                <li>Invatarea pentru teste</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Schimbă Culoarea</p>
+        <script>
+            // setează automat anul curent
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
